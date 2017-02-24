@@ -8,6 +8,10 @@ html {
 	box-sizing: inherit;
 }
 
+.site-container {
+	max-width: 1200px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -50,10 +54,6 @@ a {
 
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
-}
-
-.container {
-    margin: 0px auto;
 }
 
 /* Header */
@@ -160,7 +160,7 @@ a {
 #menu ul {
     float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     list-style: none;
     line-height: normal;
 }
