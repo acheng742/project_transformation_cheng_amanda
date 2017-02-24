@@ -268,6 +268,18 @@ a {
     text-decoration: none;
 }
 
+@media all and (min-width: 950px) {
+	#content {
+		float: right;
+		margin-left: 1.5em;
+		width: calc(100%/ 3 * 2);
+	}
+
+	#sidebar {
+		float: left;
+		width: calc(100% / 3 - 1.5em);
+	}
+}
 /* Sidebar */
 
 #sidebar {
@@ -331,22 +343,6 @@ a {
 
 #sidebar a:hover {
     text-decoration: underline;
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
 }
 
 /* Three Column Footer Content */
